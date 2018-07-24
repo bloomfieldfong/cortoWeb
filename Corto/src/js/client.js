@@ -53,7 +53,6 @@ const render = lState => {
 
     const bar = document.createElement('div');
     bar.className = "bar";
-    document.getElementById("bar").style.resize = fibonacci(i);
     bar.innerHTML = fibonacci(i);
     Obar.appendChild(bar);
   }
